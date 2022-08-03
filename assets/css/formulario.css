@@ -1,0 +1,113 @@
+.formulario {
+  width: 100%;
+  height: 800px;
+  padding-top: 5rem;
+  background: #0e0e0e;
+}
+
+.formulario__contato {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 1136px;
+}
+
+.formulario--esquerda {
+  width: 464px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario__img {
+  width: 100%;
+  height: 100%;
+}
+
+.formulario__texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 656px;
+  height: ;
+}
+
+.formulario__titulo {
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 32px;
+  text-align: center;
+  color: #b43c5b;
+}
+
+.formulario__subtexto {
+  width: 656px;
+  font-weight: 500;
+  line-height: 10px;
+  color: #b43c5b;
+}
+
+.formulario__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 656px;
+  height: 397px;
+}
+
+.formulario__input {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+  width: 650px;
+  height: 45px;
+  border: 2px solid  green;
+}
+
+.formulario__input:focus {
+  box-shadow: 10px 10px 20px 2px rgba(169, 224, 192, 0.9);
+  transition: box-shadow 1s;
+}
+
+.formulario__textarea {
+  border-radius: 5px;
+  width: 650px;
+  height: 133px;
+  border: 2px solid green;
+}
+
+.formulario__textarea:focus {
+  box-shadow: 10px 10px 20px 2px rgba(169, 224, 192, 0.9);
+  transition: box-shadow 1s;
+}
+
+::placeholder {
+  color: #b43c5b;
+  font-weight: 500;
+  
+}
+
+.formulario__botao {
+  border-radius: 5px;
+  border: 1px solid green;
+  color: green;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+}
+
+.formulario__botao:hover {
+  background-color: rgba(169, 224, 192, 0.9);
+  color:#b43c5b;
+  font-weight: bold;
+  box-shadow: 0px 0px 20px 2px rgba(169, 224, 192, 0.9);
+  transition: background-color 1s, color 1s, box-shadow 1.2s;
+}

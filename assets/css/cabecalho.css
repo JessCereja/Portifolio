@@ -1,0 +1,55 @@
+.cabecalho {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: green 1px solid;
+  background: rgba(169, 224, 192, 0.9);
+}
+
+.cabecalho__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cabecalho__titulo {
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 1.5rem;
+  color: #b43c5b;
+}
+
+.cabecalho__img {
+  width: 3rem;
+}
+
+.cabecalho__lista {
+  display: flex;
+}
+
+.cabecalho__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.cabecalho__link a {
+  color: #b43c5b;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.cabecalho__link a:hover {
+  box-shadow: 10px 10px 20px 2px #b43c5b;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  box-shadow:
+                1px 1px #b43c5b,
+                2px 2px #b43c5b,
+                3px 3px #b43c5b;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}

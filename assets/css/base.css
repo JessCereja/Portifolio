@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Nunito:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  background-color: black;
+  color: #94979F;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.container {
+  width: 1136px;
+  padding-left: 9.5rem;
+  padding-right: 9.5rem;
+}
+
+/*botão voltar ao topo*/
+
+.float-btn {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.btn-back {
+    background-color: rgba(169, 224, 192, 0.9);
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    border: none;
+}
+
+.btn-back a {
+    color: #b43c5b;
+    text-decoration: none;
+}
+
+/*FOOTER*/
+
+footer {
+  margin-top: 1rem;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  background: rgba(169, 224, 192, 0.9);
+  flex-direction: column;
+}
+em {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 1rem;
+  color: #b43c5b;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  width: 25px;
+  height: 25px;
+  margin-left: .5rem;
+  margin-top: 1rem;
+}
+
+
+/*teste*/
+.input-label {
+    position: absolute;
+    top: 1.3rem;
+    left: 0.5rem;
+    transition: all .25s;
+}
+
+.input-container--invalido {
+    margin-bottom: 0.2rem;
+}
+
+.input-container--invalido .input {
+    border: 1px solid red;
+    border-radius: 7px;
+}
+
+.input-container--invalido .input-label {
+    color: red;
+}
+
+.input-mensagem-erro {
+    display: none;
+}
+
+.input-container--invalido .input-mensagem-erro {
+    color: red;
+    display: block;
+    margin-top: 0.2rem;
+    padding-left: 0.5rem;
+}
